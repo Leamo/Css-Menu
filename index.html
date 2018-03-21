@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>MenuCSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hamburger.min.css">
+</head>
+<body>
+    <nav>
+        <input id="toggle" type="checkbox"></input>
+        <label for="toggle" class="hamburger">
+            <div class="top-bun"></div>
+            <div class="meat"></div>
+            <div class="bottom-bun"></div>
+        </label>
+        <ul>
+             <li><a href="index.html">Accueil</a></li>
+             <li>
+                <input id="sub sub-1" type="checkbox">
+                <label for="sub sub-1">Menu1</label>
+                <ul>
+                    <li><a href="#">Sous-Menu1.1</a></li>
+                    <li><a href="#">Sous-Menu1.2</a></li>
+                    <li><a href="#">Sous-Menu1.3</a></li>
+                </ul>
+             </li>
+            <li><a href="#">Menu2</a></li>
+            <li>
+                <input id="sub sub-2" type="checkbox">
+                <label for="sub sub-2">Menu3</label>
+                <ul>
+                    <li><a href="#">Sous-Menu2.1</a></li>
+                    <li><a href="#">Sous-Menu2.2</a></li>
+                    <li><a href="#">Sous-Menu2.3</a></li>
+                </ul>
+            </li>
+       </ul>
+    </nav>
+    <section id="content">
+        <img src="banner.jpg"/>
+    </section>
+</body>
+</html>
